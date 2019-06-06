@@ -65,5 +65,4 @@
 
 - Rails convention; actually `AnimalSerializer.new(@animal)`
 
-- weekend: making a POST request; how can we manipulate the JSON that gets returned?
-
+- Weekend project: https://github.com/ihollander/js-frontend-rails-backend-project-guidelines

@@ -1,15 +1,16 @@
 # SWBATs
 ## Backend
--[] Generate a Rails API
--[] Use a serializer to render JSON
--[] Understand CORS configuration
--[] BONUS: Rails Enums
+- [ ] Generate a Rails API
+- [ ] Use a serializer to render JSON
+- [ ] Understand CORS configuration
+- [ ] BONUS: Rails Enums
 
 ## Frontend
--[] Fetch
--[] DOM Manipulation
--[] Optimistic/Pessimistic Rendering
--[] BONUS: ES6 object destructuring fun
+- [ ] Fetch 
+- [ ] DOM Manipulation
+- [ ] Optimistic/Pessimistic Rendering
+- [ ] BONUS: ES6 object destructuring fun
+
 
 ## Setting Up the Backend Rails API
 
