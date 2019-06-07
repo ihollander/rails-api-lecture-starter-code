@@ -42,6 +42,8 @@
 ## PART 2
 
 - make a POST request on form submit, check that you hit the create action - you will get a token error - remove the `protect_from_forgery` line from the ApplicationController (the `--api` flag will do this by default)
+- ORRRRR: `skip_before_action :verify_authenticity_token`
+
 - headers, body (JSON.stringify)
 
 - species: find_or_create_by name

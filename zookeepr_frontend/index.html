@@ -26,8 +26,8 @@
 
     <div class='ui centered grid'>
 
-      <!-- form -->
-      <div class="row">
+       <!-- form -->
+       <div class="row">
         <div class='fourteen wide column'>
           <form class="ui form">
             <div class="three fields">
@@ -38,22 +38,18 @@
               </div>
 
               <div class="field">
-                 <label>Dietary Type</label>
-                 <div class="ui selection dropdown">
-                     <input type="hidden" name="diet">
-                     <i class="dropdown icon"></i>
-                     <div class="default text">Dietary Type</div>
-                     <div id='animal-diet' class="menu">
-                         <div class="item" data-value="0">Carnivore</div>
-                         <div class="item" data-value="1">Herbivore</div>
-                         <div class="item" data-value="2">Omnivore</div>
-                     </div>
-                 </div>
+                <label>Species</label>
+                <input name="species" id='animal-species' placeholder="Species" type="text">
               </div>
 
               <div class="field">
-                <label>Species</label>
-                <input name="species" id='animal-species' placeholder="Species" type="text">
+                 <label>Dietary Type</label>
+                 <select name="diet" id="diet-input" class="ui selection dropdown">
+                    <option value="" disabled selected>Dietary Type</option>
+                    <option class="item" value="0">Carnivore</option>
+                    <option class="item" value="1">Herbivore</option>
+                    <option class="item" value="2">Omnivore</option>
+                 </select>
               </div>
 
             </div>
@@ -94,6 +90,5 @@
 
     </div>
 
-    <script>$('.selection.dropdown').dropdown()</script>
   </body>
 </html>
